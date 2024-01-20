@@ -135,7 +135,7 @@ public class MainFrame extends JFrame implements ActionListener{
             if(textField.isSelected()) new NewFrame();
             if(keyBindings.isSelected()) new KeyBindingDemo();
             if(keyListener.isSelected()) new KeyListenerDemo();
-            if(mouseListener.isSelected()) new MouseListenerDemo();
+            //if(mouseListener.isSelected()) new MouseListenerDemo();
             if(progressbar.isSelected()) new ProgressBarDemo();
             if(twoDimGraphics.isSelected()) new TwoDimDemo();
             if(twoDimAnimation.isSelected()) new TwoDimAnimationDemo();
